@@ -3,5 +3,5 @@
 :hp-image: covers/mlmanager.png
 :hp-tags: ML Manager, Android, Google Play
 
-link:url[optional link text, optional target attribute, optional role attribute]
+link:[optional link text, optional target attribute, optional role attribute]
 ML Manager on Google Play
