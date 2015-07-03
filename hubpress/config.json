@@ -1,10 +1,1 @@
-{
-  "meta": {
-    "username": "javiersantos",
-    "repositoryName": "javiersantos.github.io",
-    "branch": "master"
-  },
-  "theme": {
-    "name": "Casper"
-  }
-}
+{"meta":{"username":"javiersantos","repositoryName":"javiersantos.github.io","branch":"master","delay":""},"site":{"title":"Javier Santos","description":"Software Developer","url":"https://javiersantos.github.io"},"socialnetwork":{"email":"me@javiersantos.me","twitter":"https://twitter.com/fjaviersantos","googleplus":"https://plus.google.com/+JavierSantos","github":"https://github.com/javiersantos"},"theme":{"name":"Casper","url":"//javiersantos.github.io/themes/Casper"}}
