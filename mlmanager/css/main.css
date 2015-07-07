@@ -144,14 +144,14 @@ header .social-info li a:hover {
   background: #fff;
   border: 1px solid #8883bc;
 }
-#banner .block .download-btn li .btn-andriod {
+#banner .block .download-btn li .btn-android {
   background: #6fbf39;
   border: 1px solid transparent;
   -webkit-transition: .2s all;
   -o-transition: .2s all;
   transition: .2s all;
 }
-#banner .block .download-btn li .btn-andriod:hover {
+#banner .block .download-btn li .btn-andrioid:hover {
   color: #6fbf39;
   background: #fff;
   border: 1px solid #6fbf39;
