@@ -1,0 +1,21 @@
+{
+  "name": "appsite",
+  "version": "0.0.0",
+  "authors": [
+    "Faiz Malkani <malkanifaiz@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#1.4.0",
+    "paper-fab": "PolymerElements/paper-fab#~1.2.0",
+    "paper-ripple": "PolymerElements/paper-ripple#~1.0.5",
+    "iron-icons": "PolymerElements/iron-icons#~1.1.3"
+  }
+}
