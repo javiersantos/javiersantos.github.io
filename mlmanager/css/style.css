@@ -277,6 +277,31 @@ html, body {
   }
 }
 
+.cd-privacy-policy {
+  padding: 50px 5%;
+  text-align: center;
+}
+.cd-privacy-policy h1 {
+  margin-bottom: 10px;
+  font-weight: 100;
+  font-size: 25px;
+  font-size: 1.5625rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+.cd-privacy-policy p {
+  padding: 0 0 20px;
+  font-size: 14px;
+  font-size: 0.875rem;
+  line-height: 1.8;
+  margin: 0 auto;
+}
+.cd-privacy-policy .cd-triggers:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 #cd-product-tour {
   position: relative;
 }
