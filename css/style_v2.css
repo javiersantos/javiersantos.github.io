@@ -1,0 +1,145 @@
+.nav-wrapper {
+  background-color: transparent;
+}
+
+nav {
+  background-color: transparent;
+  box-shadow: none;
+}
+
+nav ul a {
+  color: #ffffff;
+}
+
+.parallax {
+  position: fixed;
+}
+
+.parallax-offset {
+  padding-top: 50px;
+}
+
+.parallax-name {
+  font-family: "Roboto Black", sans-serif;
+  letter-spacing: 1px;
+  font-weight: bold;
+  color: #fafafa;
+  text-shadow: 2px 1px #000000;
+}
+
+.parallax-title {
+  width: inherit;
+  color: #ffffff;
+  margin-top: -10px;
+}
+
+.parallax-container {
+  position: inherit;
+}
+
+.btn-floating {
+  margin-left: 5px;
+}
+
+.btn-floating i {
+  color: #000;
+}
+
+.section-title {
+  font-size: 34px;
+  line-height: 1.2;
+  margin-bottom: 50px;
+  color: #222;
+  text-transform: uppercase;
+}
+
+.subtitle {
+  font-size: 24px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  color: #222;
+  text-transform: uppercase;
+}
+
+.pagination li {
+  margin-top: 20px;
+}
+
+.pagination li.active {
+  background-color: #424242;
+}
+
+.footer-title {
+  font-size: 32px;
+  line-height: 1.2;
+  margin-bottom: 5px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.mobile-divider {
+  margin: 20px;
+}
+
+footer.page-footer {
+  margin-top: 0;
+  background-color: #424242;
+  color: #ffffff;
+}
+
+footer.page-footer .footer-copyright {
+  background-color: #3a3636;
+}
+
+footer i {
+  margin-right: 10px;
+}
+
+.darkbox {
+  background-color: #f7f7f7;
+  min-height: 200px;
+  padding-top: 50px;
+  padding-bottom: 25px;
+}
+
+.whitebox {
+  background-color: #ffffff;
+  /*min-height: 400px;*/
+  padding-top: 50px;
+  padding-bottom: 25px;
+}
+
+.modal {
+  width: 100%;
+  max-height: none;
+  height: 100%;
+}
+
+.floating {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+}
+
+.btn-flat {
+  height: fixed;
+}
+
+.chip {
+  border-radius: 0;
+}
+
+.btn {
+  text-transform: none;
+}
+
+.github-btn i {
+  font-size: 1.2rem;
+  line-height: initial;
+  padding-right: 15px;
+}
+
+.github-btn {
+  padding-right: 20px;
+  padding-left: 20px;
+}

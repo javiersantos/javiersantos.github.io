@@ -1,277 +1,266 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
-    <meta name="theme-color" content="#2196F3">
-    <title>Javier Santos - Android App Developer</title>
+	<head>
+	    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	    <meta name="theme-color" content="#424242">
+	    <title>Javier Santos - Android Software Developer</title>
 
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+	    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 
-    <!-- CSS  -->
-    <link href="css/materialize.min.css" type="text/css" rel="stylesheet">
-    <link href="css/style.css" type="text/css" rel="stylesheet" >
-    <link href="css/github-repos.css" type="text/css" rel="stylesheet" />
-    <link href="css/font-awesome.min.css" type="text/css" rel="stylesheet" >
-</head>
-<body id="top" class="scrollspy">
+	    <!-- Style Sheets  -->
+	    <link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen">
+	    <link href="css/style.css" type="text/css" rel="stylesheet" >
+	    <link href="css/style_v2.css" type="text/css" rel="stylesheet" >
+	    <link href="css/banner.css" type="text/css" rel="stylesheet"  />
+	    <link href="css/github-repos.css" type="text/css" rel="stylesheet" />
 
-<!-- Pre Loader -->
-<div id="loader-wrapper">
-    <div id="loader"></div>
+	    <!-- Fonts -->
+	    <link type="text/css" rel="stylesheet" href="css/socialfont.css" />
+	    <link type="text/css" rel="stylesheet" href="css/awesomefont.css">
+	</head>
+<body>
 
-    <div class="loader-section section-left"></div>
-    <div class="loader-section section-right"></div>
+    <!-- Banner & Menu -->
+    <header class="banner">
+        <span class="background"></span>
+        <nav>
+			<div class="nav-wrapper">
+				<div class="container">
+					<a href="#" data-activates="mobile-nav" class="button-collapse"><i class="fa fa-bars"></i></a>
+					<ul class="hide-on-med-and-down right">
+						<li><a href="#aboutme">About me</a></li>
+						<li><a href="#work">Apps</a></li>
+						<li><a href="#libraries">Libraries</a></li>
+						<li><a href="http://www.javiersantos.me">Blog (ES/EN)</a></li>
+					</ul>
+					<ul class="side-nav" id="mobile-nav">
+						<li><a href="#aboutme">About me</a></li>
+						<li><a href="#work">Apps</a></li>
+						<li><a href="#libraries">Libraries</a></li>
+						<li><a href="http://www.javiersantos.me">Blog (ES/EN)</a></li>
+					</ul>
+				</div>
+			</div>
+        </nav>
+        <div class="col l12 center">
+            <h3 class="parallax-name" style="font-size: 35px;">Javier Santos</h3>
+            <div class="parallax-title">Android Software Developer</div>
+        </div>
+        <div class="col l12 center parallax-offset">
+            <a href="https://www.linkedin.com/in/fjaviersantos" target="_blank" class="btn-floating btn-large waves-effect waves white tooltipped" data-position="bottom" data-delay="50" data-tooltip="Visit my LinkedIn"><i class="fa fa-linkedin"></i></a>
+            <a href="https://github.com/javiersantos" target="_blank" class="btn-floating btn-large waves-effect waves white tooltipped" data-position="bottom" data-delay="50" data-tooltip="Visit my GitHub"><i class="fa fa-github"></i></a>
+            <a href="files/resume.pdf" target="_blank" class="btn-floating btn-large waves-effect waves white tooltipped" data-position="bottom" data-delay="50" data-tooltip="Download my CV"><i class="fa fa-file-text-o"></i></a>
+            <a href="mailto:me@javiersantos.me" class="btn-floating btn-large waves-effect waves white tooltipped" data-position="bottom" data-delay="50" data-tooltip="Send me an Email"><i class="fa fa-envelope-o"></i></a>
+        </div>
+    </header>
 
-</div>
-
-<!--Navigation-->
- <div class="navbar-fixed">
-    <nav id="nav_f" class="default_color" role="navigation">
+     <!-- About Me -->
+    <div id="aboutme" class="section scrollspy whitebox">
         <div class="container">
-            <div class="nav-wrapper"><a id="logo-container" href="#top" class="brand-logo">Javier Santos</a>
-            <ul id="nav-mobile" class="right side-nav">
-                <li><a href="#intro">Hi</a></li>
-                <li><a href="#work">Work</a></li>
-                <li><a href="#contact">Social</a></li>
-                <li><a target="_blank" href="/files/resume.pdf">Resume</a></li>
-                <li><a target="_blank" href="http://www.javiersantos.me">Blog (ES/EN)</a></li>
-            </ul><a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
-            </div>
-        </div>
-    </nav>
-</div>
-
-<!--Hero-->
-<div class="section no-pad-bot" id="index-banner">
-    <div class="container">
-        <h1 class="text_h center header cd-headline letters type">
-            <span>I &#10084;</span>
-            <span class="cd-words-wrapper waiting">
-                <b class="is-visible">Android</b>
-                <b>Software</b>
-                <b>Open Source</b>
-                <b>Material Design</b>
-                <b>Git</b>
-                <b>Android Studio</b>
-                <b>Java</b>
-                <b>Programming</b>
-            </span>
-        </h1>
-    </div>
-</div>
-
-<!--Intro and service-->
-<div id="intro" class="section scrollspy">
-    <div class="container">
-        <div class="row">
-            <div  class="col s12">
-                <h2 class="center header text_h2"> I was born on <span class="span_h2">1995</span>, and since then I have been living in <span class="span_h2">Seville, Spain</span>. I really enjoy programming since I was a child. Nowadays I continue improving myself as an <span class="span_h2">Android Developer</span>. </h2>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!--Work-->
-<div class="section scrollspy" id="work">
-    <div class="container">
-        <h2 class="header text_b">Work </h2>
-        <h4 class="header text_h2">Apps </h4>
-        <div class="row">
-            <div class="col s12 m4 l4">
-              <div class="card">
-                  <div class="card-image waves-effect waves-block waves-light">
-                      <img class="activator" src="img/project1.jpg">
-                  </div>
-                  <div class="card-content">
-                      <span class="card-title activator grey-text text-darken-4">Beta Updater <i class="mdi-navigation-more-vert right"></i></span>
-                      <p><a href="https://github.com/javiersantos/WhatsAppBetaUpdater">GitHub</a></p>
-                  </div>
-                  <div class="card-reveal">
-                      <span class="card-title grey-text text-darken-4">Beta Updater <i class="mdi-navigation-close right"></i></span>
-                      <p>An app to update WhatsApp to the latest beta version available. Based on Material Design.</p>
-                      <p>License: GPL v3.</p>
-                      <p><i>Featured in...</i></p>
-                      <ul>
-                        <li><a target="_blank" href="http://andro4all.com/2015/04/beta-updater-para-whatsapp">Andro4All</a></li>
-                        <li><a target="_blank" href="http://www.xatakandroid.com/aplicaciones-android/como-estar-siempre-actualizado-automaticamente-a-la-ultima-version-beta-de-whatsapp">Xataka Android</a></li>
-                        <li><a target="_blank" href="http://www.elandroidelibre.com/2016/01/actualizar-automaticamente-a-la-ultima-version-de-whatsapp">El Androide Libre</a></li>
-                        <li><a target="_blank" href="http://www.adslzone.net/2015/04/06/whatsapp-beta-actualizacion-automatica-android/">ADSLZone</a></li>
-                      </ul>
-                  </div>
-              </div>
-            </div>
-            <div class="col s12 m4 l4">
-                <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="img/project2.jpg">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">ML Manager <i class="mdi-navigation-more-vert right"></i></span>
-                        <p><a href="https://play.google.com/store/apps/details?id=com.javiersantos.mlmanager">Google Play</a><a href="/mlmanager">Website</a></p>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">ML Manager <i class="mdi-navigation-close right"></i></span>
-                        <p>A modern, easy and customizable app manager for Android 4.0.3+ with Material Design.</p>
-                        <p>License: GPL v3.</p>
-                        <p><i>Featured in...</i>
-                        <ul>
-                          <li><a target="_blank" href="http://www.elandroidelibre.com/2015/11/gestiona-y-comparte-tus-apps-en-segundos-con-ml-manager">El Androide Libre</a></li>
-                          <li><a target="_blank" href="http://www.phonearena.com/news/Spotlight-ML-Manager-for-Android-lets-you-organize-apps-and-extract-them-to-APKs_id76903">PhoneArena</a></li>
-                          <li><a target="_blank" href="http://android.hdblog.it/2015/06/10/app-test-ml-manager/">HDBlog</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col s12 m4 l4">
-                <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="img/project4.jpg">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Following <i class="mdi-navigation-more-vert right"></i></span>
-                        <p><a href="https://play.google.com/store/apps/details?id=com.materiup.following">Google Play</a><a href="http://materiup.com/following">Website</a></p>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Following <i class="mdi-navigation-close right"></i></span>
-                        <p>Following is the first trivia game about Twitter that turns your Twitter profile in a game.</p>
-                        <p><i>Featured in...</i><a>
-                        <ul>
-                          <li><a target="_blank" href="http://www.xatakandroid.com/redes-sociales/following-un-juego-para-descubrir-cuanto-conoces-a-la-gente-que-sigues-en-twitter">Xataka Android</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col s12 m4 l4">
-              <div class="card">
-                  <div class="card-image waves-effect waves-block waves-light">
-                      <img class="activator" src="img/project6.jpg">
-                  </div>
-                  <div class="card-content">
-                      <span class="card-title activator grey-text text-darken-4">Tap Numbers <i class="mdi-navigation-more-vert right"></i></span>
-                      <p><a href="https://play.google.com/store/apps/details?id=com.materiup.tapnumbers">Google Play</a><a href="http://www.materiup.com/tapnumbers">Website</a></p>
-                  </div>
-                  <div class="card-reveal">
-                      <span class="card-title grey-text text-darken-4">Tap Numbers <i class="mdi-navigation-close right"></i></span>
-                      <p>Tap Numbers is an addictive Android game where the goal is to tap the right number in the exact moment.</p>
-                  </div>
-              </div>
-            </div>
-            <div class="col s12 m4 l4">
-                <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="img/project5.jpg">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Tracker for Amazon <i class="mdi-navigation-more-vert right"></i></span>
-                        <p><a href="http://www.materiup.com/tracker">Website</a></p>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Tracker for Amazon <i class="mdi-navigation-close right"></i></span>
-                        <p>A beautiful and really easy to use price tracker app for your Amazon products.</p>
-                        <p>Tracker for Amazon is a price tracker done right for your Android device. Track prices, save money.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col s12 m4 l4">
-                <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="img/project3.jpg">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Moticons <i class="mdi-navigation-more-vert right"></i></span>
-                        <p><a href="https://play.google.com/store/apps/details?id=com.javiersantos.moticons">Google Play</a><a href="/moticons">Website</a></p>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Moticons <i class="mdi-navigation-close right"></i></span>
-                        <p>An easy and modern way to send Moticons (Japanese Emoticons) with Material Design.</p>
-                        <p>License: GPL v3</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <h4 class="header text_h2">Libraries </h4>
-        <div class="projects">
             <div class="row">
                 <div class="col l6 m6 s12">
-                    <a href="//github.com/javiersantos/AppUpdater">AppUpdater</a>
-                </div>
-                <div class="col l6 m6 s12">
-                    <a href="//github.com/javiersantos/PiracyChecker">PiracyChecker</a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col l6 m6 s12">
-                    <a href="//github.com/javiersantos/MaterialStyledDialogs">MaterialStyledDialogs</a>
-                </div>
-                <div class="col l6 m6 s12">
-                    <a href="//github.com/javiersantos/BottomDialogs">BottomDialogs</a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col l6 m6 s12">
-                    <a href="//github.com/javiersantos/AdBlockerAdvise">AdBlockerAdvise</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!--Parallax-->
-<div class="parallax-container">
-    <div class="parallax"><img src="img/parallax1.png"></div>
-</div>
-
-<!--Footer-->
-<footer id="contact" class="page-footer default_color scrollspy">
-    <div class="container">
-        <div class="row">
-            <div class="col l3 s12">
-                <h5 class="white-text">javiersantos.me</h5>
-                <ul>
-                    <li><a class="white-text">Android Developer</a></li>
-                </ul>
-            </div>
-            <div class="col l3 s12">
-                <h5 class="white-text">Social</h5>
-                <ul>
-                    <li>
-                        <a class="white-text" href="https://github.com/javiersantos">
-                            <i class="small fa fa-github-square white-text"></i> Github
-                        </a>
-                    </li>
-                    <li>
-                        <a class="white-text" href="http://google.com/+JavierSantos">
-                            <i class="small fa fa-google-plus-square white-text"></i> Google+
-                        </a>
-                    </li>
-                    <li>
-                        <a class="white-text" href="http://twitter.com/fjaviersantos">
-                            <i class="small fa fa-twitter-square white-text"></i> Twitter
-                        </a>
-                    </li>
-                    <li>
-                        <a class="white-text" href="http://linkedin.com/in/fjaviersantos">
-                            <i class="small fa fa-linkedin-square white-text"></i> LinkedIn
-                        </a>
-                    </li>
-                    <li>
-                        <a class="white-text" href="mailto:me@javiersantos.me">
-                            <i class="small fa fa-pencil-square white-text"></i> Contact Me
-                        </a>
-                    </li>
-                </ul>
+                    <div class="subtitle center">About Me</div>
+                        <p>
+                        Hi there! Thanks for visiting my portfolio. My name is Javier Santos and I was born on 1995, and since then I have been living in Seville, Spain. I really enjoy programming since I was a child. Nowadays I continue improving myself as an Android Developer.. You can find most of my projects on this page and my <a href="https://github.com/javiersantos">GitHub</a>.
+                        </p>
+                    </div>
+                    <div class="col l6 m6 s12">
+                        <div class="subtitle center">Skills</div>
+                        <div class="chip">Android SDK</div>
+                        <div class="chip">Java</div>
+                        <div class="chip">API Rest</div>
+                        <div class="chip">C#</div>
+                        <div class="chip">Xamarin</div>
+                        <div class="chip">Android Studio</div>
+                        <div class="chip">Git</div>
+                        <div class="chip">CI</div>
+                        <div class="chip">UI</div>
+                        <div class="chip">Testing</div>
+                        <div class="chip">Firebase</div>
+                        <div class="chip">Realm</div>
+                        <div class="chip">BLE</div>
+                        <div class="chip">Material Design</div>
+                    </div>
             </div>
         </div>
     </div>
-    <div class="footer-copyright default_color">
+
+    <!--Work-->
+    <div class="section scrollspy" id="work">
         <div class="container">
-            Theme by <a class="white-text" href="http://joashpereira.com">Joash Pereira</a>. Thanks to <a class="white-text" href="http://materializecss.com/">materializecss</a>.
+            <h2 class="header text_b">Work </h2>
+            <div class="section scrollspy" id="apps">
+	            <h4 class="header text_h2">Apps </h4>
+	            <div class="row">
+	                <div class="col s12 m4 l4">
+	                  <div class="card">
+	                      <div class="card-image waves-effect waves-block waves-light">
+	                          <img class="activator" src="img/project1.jpg">
+	                      </div>
+	                      <div class="card-content">
+	                          <span class="card-title activator grey-text text-darken-4">Beta Updater <i class="mdi-navigation-more-vert right"></i></span>
+	                          <p><a href="https://github.com/javiersantos/WhatsAppBetaUpdater">GitHub</a></p>
+	                      </div>
+	                      <div class="card-reveal">
+	                          <span class="card-title grey-text text-darken-4">Beta Updater <i class="mdi-navigation-close right"></i></span>
+	                          <p>An app to update WhatsApp to the latest beta version available. Based on Material Design.</p>
+	                          <p>License: GPL v3.</p>
+	                          <p><i>Featured in...</i></p>
+	                          <ul>
+	                            <li><a target="_blank" href="http://andro4all.com/2015/04/beta-updater-para-whatsapp">Andro4All</a></li>
+	                            <li><a target="_blank" href="http://www.xatakandroid.com/aplicaciones-android/como-estar-siempre-actualizado-automaticamente-a-la-ultima-version-beta-de-whatsapp">Xataka Android</a></li>
+	                            <li><a target="_blank" href="http://www.elandroidelibre.com/2016/01/actualizar-automaticamente-a-la-ultima-version-de-whatsapp">El Androide Libre</a></li>
+	                            <li><a target="_blank" href="http://www.adslzone.net/2015/04/06/whatsapp-beta-actualizacion-automatica-android/">ADSLZone</a></li>
+	                          </ul>
+	                      </div>
+	                  </div>
+	                </div>
+	                <div class="col s12 m4 l4">
+	                    <div class="card">
+	                        <div class="card-image waves-effect waves-block waves-light">
+	                            <img class="activator" src="img/project2.jpg">
+	                        </div>
+	                        <div class="card-content">
+	                            <span class="card-title activator grey-text text-darken-4">ML Manager <i class="mdi-navigation-more-vert right"></i></span>
+	                            <p>
+	                            	<a href="https://play.google.com/store/apps/details?id=com.javiersantos.mlmanager">Google Play</a>
+	                            	<br>
+	                            	<a href="/mlmanager">Website</a>
+	                            </p>
+	                        </div>
+	                        <div class="card-reveal">
+	                            <span class="card-title grey-text text-darken-4">ML Manager <i class="mdi-navigation-close right"></i></span>
+	                            <p>A modern, easy and customizable app manager for Android 4.0.3+ with Material Design.</p>
+	                            <p>License: GPL v3.</p>
+	                            <p><i>Featured in...</i>
+	                            <ul>
+	                              <li><a target="_blank" href="http://www.elandroidelibre.com/2015/11/gestiona-y-comparte-tus-apps-en-segundos-con-ml-manager">El Androide Libre</a></li>
+	                              <li><a target="_blank" href="http://www.phonearena.com/news/Spotlight-ML-Manager-for-Android-lets-you-organize-apps-and-extract-them-to-APKs_id76903">PhoneArena</a></li>
+	                              <li><a target="_blank" href="http://android.hdblog.it/2015/06/10/app-test-ml-manager/">HDBlog</a></li>
+	                            </ul>
+	                        </div>
+	                    </div>
+	                </div>
+	                <div class="col s12 m4 l4">
+	                    <div class="card">
+	                        <div class="card-image waves-effect waves-block waves-light">
+	                            <img class="activator" src="img/project4.jpg">
+	                        </div>
+	                        <div class="card-content">
+	                            <span class="card-title activator grey-text text-darken-4">Following <i class="mdi-navigation-more-vert right"></i></span>
+	                            <p>
+	                            	<a href="https://play.google.com/store/apps/details?id=com.materiup.following">Google Play</a>
+	                            	<br>
+	                            	<a href="http://materiup.com/following">Website</a>
+	                            </p>
+	                        </div>
+	                        <div class="card-reveal">
+	                            <span class="card-title grey-text text-darken-4">Following <i class="mdi-navigation-close right"></i></span>
+	                            <p>Following is the first trivia game about Twitter that turns your Twitter profile in a game.</p>
+	                            <p><i>Featured in...</i><a>
+	                            <ul>
+	                              <li><a target="_blank" href="http://www.xatakandroid.com/redes-sociales/following-un-juego-para-descubrir-cuanto-conoces-a-la-gente-que-sigues-en-twitter">Xataka Android</a></li>
+	                            </ul>
+	                        </div>
+	                    </div>
+	                </div>
+	            </div>
+	            <div class="row">
+	                <div class="col s12 m4 l4">
+	                  <div class="card">
+	                      <div class="card-image waves-effect waves-block waves-light">
+	                          <img class="activator" src="img/project6.jpg">
+	                      </div>
+	                      <div class="card-content">
+	                          <span class="card-title activator grey-text text-darken-4">Tap Numbers <i class="mdi-navigation-more-vert right"></i></span>
+	                          <p>
+	                          	<a href="https://play.google.com/store/apps/details?id=com.materiup.tapnumbers">Google Play</a>
+	                          	<br>
+	                          	<a href="http://www.materiup.com/tapnumbers">Website</a>
+	                          </p>
+	                      </div>
+	                      <div class="card-reveal">
+	                          <span class="card-title grey-text text-darken-4">Tap Numbers <i class="mdi-navigation-close right"></i></span>
+	                          <p>Tap Numbers is an addictive Android game where the goal is to tap the right number in the exact moment.</p>
+	                      </div>
+	                  </div>
+	                </div>
+	                <div class="col s12 m4 l4">
+	                    <div class="card">
+	                        <div class="card-image waves-effect waves-block waves-light">
+	                            <img class="activator" src="img/project5.jpg">
+	                        </div>
+	                        <div class="card-content">
+	                            <span class="card-title activator grey-text text-darken-4">Tracker for Amazon <i class="mdi-navigation-more-vert right"></i></span>
+	                            <p><a href="http://www.materiup.com/tracker">Website</a></p>
+	                        </div>
+	                        <div class="card-reveal">
+	                            <span class="card-title grey-text text-darken-4">Tracker for Amazon <i class="mdi-navigation-close right"></i></span>
+	                            <p>A beautiful and really easy to use price tracker app for your Amazon products.</p>
+	                            <p>Tracker for Amazon is a price tracker done right for your Android device. Track prices, save money.</p>
+	                        </div>
+	                    </div>
+	                </div>
+	                <div class="col s12 m4 l4">
+	                    <div class="card">
+	                        <div class="card-image waves-effect waves-block waves-light">
+	                            <img class="activator" src="img/project3.jpg">
+	                        </div>
+	                        <div class="card-content">
+	                            <span class="card-title activator grey-text text-darken-4">Moticons <i class="mdi-navigation-more-vert right"></i></span>
+	                            <p>
+	                            	<a href="https://play.google.com/store/apps/details?id=com.javiersantos.moticons">Google Play</a>
+	                            	<br>
+	                            	<a href="/moticons">Website</a>
+	                            </p>
+	                        </div>
+	                        <div class="card-reveal">
+	                            <span class="card-title grey-text text-darken-4">Moticons <i class="mdi-navigation-close right"></i></span>
+	                            <p>An easy and modern way to send Moticons (Japanese Emoticons) with Material Design.</p>
+	                            <p>License: GPL v3</p>
+	                        </div>
+	                    </div>
+	                </div>
+	            </div>
+	        </div>
+	        <div class="section scrollspy" id="libraries">
+	            <h4 class="header text_h2">Libraries </h4>
+	            <div class="projects">
+	                <div class="row">
+	                    <div class="col l6 m6 s12">
+	                        <a href="//github.com/javiersantos/AppUpdater">AppUpdater</a>
+	                    </div>
+	                    <div class="col l6 m6 s12">
+	                        <a href="//github.com/javiersantos/PiracyChecker">PiracyChecker</a>
+	                    </div>
+	                </div>
+	                <div class="row">
+	                    <div class="col l6 m6 s12">
+	                        <a href="//github.com/javiersantos/MaterialStyledDialogs">MaterialStyledDialogs</a>
+	                    </div>
+	                    <div class="col l6 m6 s12">
+	                        <a href="//github.com/javiersantos/BottomDialogs">BottomDialogs</a>
+	                    </div>
+	                </div>
+	                <div class="row">
+	                    <div class="col l6 m6 s12">
+	                        <a href="//github.com/javiersantos/AdBlockerAdvise">AdBlockerAdvise</a>
+	                    </div>
+	                </div>
+	            </div>
+	        </div>
         </div>
     </div>
-</footer>
+
+    <!--Footer-->
+    <footer id="contact" class="scrollspy page-footer">
+        <div class="footer-copyright">
+            <div class="container">
+            	Made with <i class="fa fa-coffee" style="margin-left: 8px;"></i> and <i class="fa fa-heart" style="margin-left: 8px;"></i> / Theme by <a class="white-text" href="http://joashpereira.com">Joash Pereira</a> and <a class="white-text" href="https://marcovp.nl">Marco von Poortvliet</a>. Thanks to <a class="white-text" href="http://materializecss.com/">materializecss</a>.
+            </div>
+        </div>
+    </footer>
 
 
     <!--  Scripts-->

@@ -23,11 +23,6 @@
     background-color: #2196F3;
 }
 
-#nav_f{
-    box-shadow: none !important; 
-    -webkit-box-shadow:none !important;
-}
-
 .text_h {
     padding: 15% 0;
     font-size: 6.0em;
@@ -50,7 +45,7 @@
 
 .span_h2 {font-weight: 300;color: #2196F3;}
 
-.text_b{color: #2196F3;}
+.text_b{color: #424242;}
 
 .in{font-weight: 400 !important; font-style: normal !important;}
 
@@ -66,15 +61,6 @@
 #work, #team{background: rgb(247, 247, 247);}
 
 .text_pink{color:#EF9A9A;}
-
-nav ul a {
-    font-size: 1.2rem;
-    color: #FFF;
-    letter-spacing: 2px;
-    display: block;
-    font-weight: 300;
-    padding: 0px 15px;
-}
 
 .cd-headline.type .cd-words-wrapper {
     vertical-align: top;
@@ -223,10 +209,6 @@ nav ul a {
 
 input, textarea {
     border-bottom: 1px solid #fff;
-}
-
-nav a.button-collapse {
-    left: -25px;
 }
 
 .card-avatar .waves-effect {
