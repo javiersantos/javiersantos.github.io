@@ -1,0 +1,133 @@
+/* Github Box */
+
+.github-box {
+  background: #fafafa;
+  color: #666;
+  float: left;
+  margin-right: 1.2em;
+  margin-bottom: 2em;
+  width: 100%;
+  border-radius: 2px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),0 1px 5px 0 rgba(0,0,0,0.12),0 3px 1px -2px rgba(0,0,0,0.2);
+}
+
+.github-box a {
+  color: #4183C4;
+  border: none;
+}
+
+/* Github Box Header */
+
+.github-box .github-box-header {
+  position: relative;
+  border-bottom: 1px solid #ddd;
+  background: #424242;
+  border-radius: 1px;
+}
+
+.github-box .github-box-header h3 {
+  font-weight: normal;
+  font-size: 16px;
+  margin: 0;
+  padding: 10px 10px 10px 10px;
+}
+
+.github-box .github-box-header h3 a {
+  font-weight: bold;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* Github Box Header - Stats */
+
+.github-box .github-box-header .github-stats {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  background: white;
+  border-radius: 1px;
+  font-size: 11px;
+  font-weight: bold;
+  line-height: 21px;
+  height: 21px;
+}
+
+.github-box .github-box-header .github-stats a {
+  display: inline-block;
+  height: 21px;
+  color: #666;
+  padding: 0 5px 0 5px;
+  opacity: 0.7;
+}
+
+.github-box .github-box-header .github-stats a:hover {
+  opacity: 1;
+}
+
+.github-box .github-box-header .github-stats .repo-watchers {
+  border-right: 1px solid #ddd;
+  background-position: 3px 4px;
+}
+
+.github-box .github-box-header .github-stats .repo-stars {
+  border-right: 1px solid #ddd;
+}
+
+.github-box .github-box-header .github-stats .repo-forks {
+  background-position: 2px -14px;
+}
+
+/* Github Box Content */
+
+.github-box .github-box-content {
+  padding: 10px;
+  font-size: 0.8em;
+}
+
+.github-box .github-box-content p {
+  margin: 0;
+}
+
+.github-box .github-box-content a {
+  display: block;
+}
+
+.github-box .github-box-content .repo-link {
+  font-weight: bold;
+}
+
+/* Github Box Button */
+
+.github-box .github-box-download {
+  position: relative;
+  border-top: 1px solid #ddd;
+  background: #fff;
+  border-radius: 0 0 3px 3px;
+  padding: 10px;
+}
+
+.github-box .github-box-download .repo-update {
+  margin: 0;
+  font-size: 11px;
+  color: #666;
+  line-height: 24px;
+}
+
+.github-box .github-box-download .repo-download {
+  position: absolute;
+  color: #ffffff;
+  display: block;
+  top: 10px;
+  right: 10px;
+  height: 25px;
+  display: block;
+  padding-left: 4px;
+  padding-right: 4px;
+  line-height: 26px;
+}
+
+.github-box .github-box-download .repo-download {
+  font-size: 11px;
+  text-transform: none;
+  letter-spacing: inherit;
+}

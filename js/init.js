@@ -265,4 +265,7 @@
 	// });
 
 	}); // end of document ready
+
+	GHRepos.create('.projects a')
+
 })(jQuery); // end of jQuery name space
