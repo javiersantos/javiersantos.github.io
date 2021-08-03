@@ -6,13 +6,13 @@ $(document).ready(function() {
   };
 
   // Side Navigation
-  $(".button-collapse").sideNav({
-    closeOnClick: true
-  });
+  $('.sidenav').sidenav();
 
   $('.scrollspy').scrollSpy({
     scrollOffset: 0
   });
+
+  $('.tooltipped').tooltip();
 
   GHRepos.create('.projects a')
 
